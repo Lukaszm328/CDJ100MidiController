@@ -5,12 +5,16 @@ Arduino MIDI controller USB with Pionner CDJ100.
 
 ## Hardware
 You need :
-- Arduino Micro or clone Arduino Pro Micro ATmega32U4 5V with expander
+- Arduino Micro or clone Arduino Pro Micro ATmega32U4 5V
 - Short colored cables
 - Kable usb for connect arduino with computer
 - Rotary encoder ( optional ) for browsing songs
 
 ## Scheme
+For clone Arduino Pro Micro ATmega32U4 5V
+![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Arduino-scheme.png?raw=true)
+
+For Arduino micro
 
 ## Video
 
