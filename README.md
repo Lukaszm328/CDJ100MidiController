@@ -16,3 +16,4 @@ You need :
 
 ## Bonus new JOG for CDJ 100 !
 Print 3D model and anjoy :)
+![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/CDJ100-new-jog.png?raw=true)
