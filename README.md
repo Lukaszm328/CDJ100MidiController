@@ -16,6 +16,9 @@ For clone Arduino Pro Micro ATmega32U4 5V
 
 For Arduino micro
 
+## Mapping
+Traktor Pro 3
+
 ## Video
 
 ## Bonus new JOG for CDJ 100 !
