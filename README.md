@@ -18,7 +18,9 @@ For Arduino micro
 
 ## Mapping
 Traktor Pro 3
+
 ![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Images/CDJ-100-MAPPING.png?raw=true)
+
 LINK TO DOWNLOAD
 
 ## Video
