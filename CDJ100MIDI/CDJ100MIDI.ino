@@ -31,7 +31,7 @@ const int speedMultiply  = 1;          // No change in speed of the encoder (num
   Digital Button_TIME(10, 70, 1, velocity);          // PIN 10 |
   Digital Button_EJECT(16, 71, 1, velocity);         // PIN 11 |
   Digital Button_TEMPO(14, 72, 1, velocity);         // PIN 12 |
-//Digital Button_ENCODER_BT(21, 73, 1, velocity);    // PIN 13 |
+  Digital Button_ENCODER_BT(21, 73, 1, velocity);    // PIN 13 |
 // -------------------------------------------------------------
 
 // ------------------- ROTARY  ENCODERS -----------------------------------------------------
@@ -40,7 +40,7 @@ const int speedMultiply  = 1;          // No change in speed of the encoder (num
 // JOG                                                                                      |
   RotaryEncoder encoderJOG(15, 18, 0x14, 1, speedMultiply, JOG, POS1_NEG127); // PIN 15, 18 |
 // BROWSER(OPTIONAL)                                                                        |
-//RotaryEncoder encoderBrowser(15, 18, 0x15, 1, speedMultiply, JOG, ADD_64);  // PIN 19, 20 |  
+  RotaryEncoder encoderBrowser(15, 18, 0x15, 1, speedMultiply, JOG, ADD_64);  // PIN 19, 20 |  
 // ------------------------------------------------------------------------------------------
 
 // -------------------------- ANALOG --------------------------------- 
@@ -53,12 +53,13 @@ const int speedMultiply  = 1;          // No change in speed of the encoder (num
 void setup() {
 // --------------------------- LED -----------------------------------
    // PLAY/PAUSE Ch01.CC.000                                  PIN 19 |
-   pinMode(ledPlayPin, OUTPUT);                                    //|
+//   pinMode(ledPlayPin, OUTPUT);                                  //|
    // CUE        Ch01.CC.001                                  PIN 20 |
-   pinMode(ledCuePin, OUTPUT);                                     //|
+//   pinMode(ledCuePin, OUTPUT);                                   //|
 // ------------------------------------------------------------------- 
 }
 
 void loop() {
   MIDI_Controller.refresh();
+  MIDI_Controller.read();
 }
