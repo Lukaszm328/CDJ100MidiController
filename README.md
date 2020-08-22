@@ -12,6 +12,9 @@ You need :
 
 ## Scheme
 For clone Arduino Pro Micro ATmega32U4 5V
+IMPORTANT
+You need to trim the all button tracks on cdj 100 (not GDN).
+
 ![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Arduino-scheme.png?raw=true)
 
 For Arduino micro
@@ -21,8 +24,8 @@ Traktor Pro 3
 
 ![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Images/CDJ-100-A-B-MAPPING.png?raw=true)
 
-LINK TO DOWNLOAD
-
+[LINK TO DOWNLOAD](https://github.com/Lukaszm328/CDJ100MidiController/tree/master/Mapping/Traktor%20Pro%203)
+ 
 ## Video
 
 ## Bonus new JOG for CDJ 100 !
