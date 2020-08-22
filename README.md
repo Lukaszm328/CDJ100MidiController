@@ -1,7 +1,7 @@
 # CDJ100 Midi Controller
 Arduino MIDI controller USB with Pionner CDJ100.
 
-![Freelancer Preview](https://github.com/Lukaszm328/ArduinoMidiControllerUsb/blob/master/CDJ100Arduino.png?raw=true)
+![Freelancer Preview](https://github.com/Lukaszm328/ArduinoMidiControllerUsb/blob/master/Images/CDJ100Arduino.png?raw=true)
 
 ## Hardware
 You need :
@@ -15,7 +15,7 @@ For clone Arduino Pro Micro ATmega32U4 5V
 IMPORTANT
 You need to trim the all button tracks on cdj 100 (not GDN).
 
-![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Arduino-scheme.png?raw=true)
+![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Images/Arduino-scheme.png?raw=true)
 
 For Arduino micro
 
@@ -28,6 +28,10 @@ Traktor Pro 3
  
 ## Video
 
+![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Images/cdj100-midi-video.png?raw=true)
+
+https://youtu.be/vDnKJEDnQek
+
 ## Bonus new JOG for CDJ 100 !
 Print 3D model and anjoy :)
-![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/CDJ100-new-jog.png?raw=true)
+![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Images/CDJ100-new-jog.png?raw=true)
