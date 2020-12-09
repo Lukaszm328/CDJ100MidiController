@@ -38,7 +38,7 @@ const int speedMultiply  = 1;          // No change in speed of the encoder (num
 // MODE: POS1_NEG127 - 7Fh/01h || ADD_64 - 3Fh/41h || TWOS_COMPLEMENT                       |
 // Set pulsesPerStep to 4, for normal rotary encoders  1, for jog wheels.                   |
 // JOG                                                                                      |
-  RotaryEncoder encoderJOG(15, 18, 0x14, 1, speedMultiply, JOG, POS1_NEG127); // PIN 15, 18 |
+  RotaryEncoder encoderJOG(19, 20, 0x14, 1, speedMultiply, JOG, POS1_NEG127); // PIN 15, 18 |
 // BROWSER(OPTIONAL)                                                                        |
   RotaryEncoder encoderBrowser(15, 18, 0x15, 1, speedMultiply, JOG, ADD_64);  // PIN 19, 20 |  
 // ------------------------------------------------------------------------------------------
@@ -61,5 +61,4 @@ void setup() {
 
 void loop() {
   MIDI_Controller.refresh();
-  MIDI_Controller.read();
 }
