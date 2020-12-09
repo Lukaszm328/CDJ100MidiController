@@ -50,15 +50,6 @@ const int speedMultiply  = 1;          // No change in speed of the encoder (num
 
 // ------------------------- SETUP -----------------------------------
 
-void setup() {
-// --------------------------- LED -----------------------------------
-   // PLAY/PAUSE Ch01.CC.000                                  PIN 19 |
-//   pinMode(ledPlayPin, OUTPUT);                                  //|
-   // CUE        Ch01.CC.001                                  PIN 20 |
-//   pinMode(ledCuePin, OUTPUT);                                   //|
-// ------------------------------------------------------------------- 
-}
-
 void loop() {
   MIDI_Controller.refresh();
 }
