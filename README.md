@@ -17,6 +17,9 @@ You need to trim the all button tracks on cdj 100 (not GDN).
 
 ![Freelancer Preview](https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Images/Arduino-scheme.png?raw=true)
 
+![Freelancer Preview](
+https://github.com/Lukaszm328/CDJ100MidiController/blob/master/Images/CDJ%20100.png?raw=true)
+
 For Arduino micro
 
 ## Mapping
