@@ -11,9 +11,7 @@
 #include <MIDI_Controller.h>
 
 // --------------------------------------------- VARIABLES -----------------------------------------------------
-const uint8_t velocity   = 0b1111111;  // Maximum velocity (0b1111111 = 0x7F = 127)                             |
-const uint8_t ledPlayPin = 19;         // LED pin play                                                          |
-const uint8_t ledCuePin  = 20;         // LED pin cue                                                           |
+const uint8_t velocity   = 0b1111111;  // Maximum velocity (0b1111111 = 0x7F = 127)                             |                                                     |
 const int speedMultiply  = 1;          // No change in speed of the encoder (number of steps is multiplied by 1)|
 // -------------------------------------------------------------------------------------------------------------
 
