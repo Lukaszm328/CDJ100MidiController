@@ -10,6 +10,12 @@ You need :
 - Kable usb for connect arduino with computer
 - Rotary encoder ( optional ) for browsing songs
 
+## Instalation
+1. Install Arduino IDE.
+2. Install all libs from folder plugins.
+3. From Arduino IDE upload program on board (Projects/CDJ100-MIDI.ino).
+4. If You want you can change device name. Rename name in file [drive]:\Users\[user_name]\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino\USBCore.cpp. change USB_PRODUCT = "My deviece name".
+
 ## Scheme
 For clone Arduino Pro Micro ATmega32U4 5V
 IMPORTANT
